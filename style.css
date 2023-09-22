@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(0,255,26,1) 37%);
+    height: 100vh;
+    overflow-y: hidden;
+    font-family:sans-serif;
+}
+
+body .logo-txt{
+    margin: auto;
+    width: max-content;
+    margin-bottom: -30px;
+}
+
+.landing-page{
+    height: 80%;
+    width: 70%;
+    background-color: white;
+    margin: auto;
+    z-index: 2;
+    border-radius: 20px;
+}
+
+nav{
+    padding: 0.5rem 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .left ul{
+    list-style: none;
+    display: flex;
+    gap: 0.7rem;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+nav .left ul li{
+    font-size: 15px;
+}
+
+nav .left img{
+    margin: auto;
+}
+
+nav .right .menu-list{
+    font-size: 30px;
+}
+
+nav .center{
+    display: flex;
+    align-items: center;
+}
+
+.car-txt{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.car-txt .car-txt-left{
+    width: 40%;
+}
+
+.car-txt .car-txt-left h1{
+    font-size: 90px;
+}
+
+.car-txt .car-txt-right h2{
+    font-size: 40px;
+    color: #CFD1D5;
+}
+
+.car-div{
+    padding: 1rem 2rem;
+}
+
+.car-image{
+    width: max-content;
+    margin: auto;
+}
+
+.car-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.car-info .car-info-left{
+    display: flex;
+    gap: 2rem;
+}
+
+.car-info .car-info-right{
+    width: 40%;
+}
+
+
+.car-img{
+    transition: all 1s linear;
+}
